@@ -10,6 +10,10 @@
   "scripts": {
     "start": "node index.js"
   },
+  "files": [
+    "index.js",
+    "skills"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/stevenselcuk/claude-just-check-it.git"
