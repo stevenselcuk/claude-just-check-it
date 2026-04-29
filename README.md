@@ -23,19 +23,16 @@ This tool doesn't just take screenshots. It reads your codebase, figures out how
 
 2. Add the following MCP server configuration:
 
-\`\`\`json
+```json
 {
-"mcpServers": {
-"just-check-it": {
-"command": "npx",
-"args":[
-"-y",
-"claude-just-check-it"
-]
+  "mcpServers": {
+    "just-check-it": {
+      "command": "npx",
+      "args": ["claude-just-check-it"]
+    }
+  }
 }
-}
-}
-\`\`\`
+```
 
 1. **Restart Claude Desktop.**
 
