@@ -1,0 +1,37 @@
+{
+  "name": "claude-just-check-it",
+  "version": "4.0.0",
+  "description": "An autonomous QA, Debugging, and UI/UX Verification MCP Server for Claude AI.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "claude-just-check-it": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenselcuk/claude-just-check-it.git"
+  },
+  "keywords": [
+    "claude",
+    "mcp",
+    "playwright",
+    "qa",
+    "debugging",
+    "testing",
+    "ui-ux",
+    "vision"
+  ],
+  "author": "Steven J. Selcuk",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "glob": "^10.3.10",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.42.1"
+  }
+}
